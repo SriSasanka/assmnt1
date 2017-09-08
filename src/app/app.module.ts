@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-
+import { AngularFontAwesomeModule } from 'angular-font-awesome/angular-font-awesome';
 
 import { AppComponent } from './app.component';
 
@@ -14,7 +14,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     NgbModule.forRoot(),
-    NgbModule
+    NgbModule,
+    AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
